@@ -1,4 +1,6 @@
-﻿#region Copyright
+extensions: designer.cs generated.cs
+extensions: .cs .cpp .h
+#region Copyright
 /*
 The MIT License (MIT)
 
@@ -23,20 +25,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 #endregion
-using System;
-
-namespace Simple_Fuck {
-    class Transformer {
-
-        private string _orig;
-        private string _src;
-        public Transformer(String src) {
-            _orig = src;
-            _src = _orig.Replace("SHIFT", string.Empty).Replace(" ", string.Empty).Replace("LEFT", "<").Replace("RIGHT", ">").Replace("INPUT", ",").Replace("PRINT", ".").Replace("LOOP(", "[").Replace(")LOOP", "]").Replace("INC", "+").Replace("DEC", "-");
-        }
-
-        public override string ToString() {
-            return this._src;
-        }
-    }
-}
+extensions: .aspx .ascx
+<%-- 
+Sample license text.
+--%>
+extensions: .vb
+'Sample license text.
+extensions:  .xml .config .xsd
+<!--
+Sample license text.
+-->
