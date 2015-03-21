@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Fuck", "Simple Fuck\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBF", "SBF\SBF.csproj", "{DD655BA3-4D5D-4084-B833-22BDAF967CE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBF IDE", "SBF IDE\SBF IDE.csproj", "{89622205-E22B-460B-99CD-6FCDC37BD10E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{DD655BA3-4D5D-4084-B833-22BDAF967CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD655BA3-4D5D-4084-B833-22BDAF967CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD655BA3-4D5D-4084-B833-22BDAF967CE0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89622205-E22B-460B-99CD-6FCDC37BD10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89622205-E22B-460B-99CD-6FCDC37BD10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89622205-E22B-460B-99CD-6FCDC37BD10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89622205-E22B-460B-99CD-6FCDC37BD10E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
